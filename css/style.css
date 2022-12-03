@@ -1,0 +1,228 @@
+/* home section */
+body{
+    overflow: hidden;
+}
+.backToTop{
+    width: 30px;
+    height:30px ;
+    background-color: black;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    z-index: 10205050;
+    cursor: pointer;
+    display: flex;
+    display: none;
+}
+.loadingScreen{
+   display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999999999999999999999999999999;
+}
+header{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.home_layer{
+    background-color: rgba(0, 0, 0, .55);
+}
+h1{
+    font-weight: 200;
+    font-size: 75px;
+}
+
+.icons{
+    width: 35px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, .3);
+}
+.home-linear{
+position: relative;
+padding-bottom: 0 !important; 
+
+}
+
+.home-linear::after{
+    content: "";
+    width: 40px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    right: 0;
+
+}
+.nav-link {
+    color: white !important;
+}
+nav li a:hover{
+    background-color: #8F7854;
+}
+
+.up_icon{
+    bottom: 3%;
+    right: 3%;
+    background-color: black;
+    
+ 
+}  
+
+.home_icons .down{
+    height: 45px;
+    width: 25px;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform:translate(-50%);
+    border-radius: 15px;
+    -webkit-transform:translate(-50%);
+    -moz-transform:translate(-50%);
+    -ms-transform:translate(-50%);
+    -o-transform:translate(-50%);
+    animation: scroll 3s ease-in-out infinite;
+ 
+ }
+ .home_icons .down::after{
+     content: "";
+     width: 3px;
+     height: 10px;
+     background-color: #fff;
+     position: absolute;
+     bottom:10px;
+     left: 50%;
+     transform: translate(-50%);
+ }
+ @keyframes scroll {
+
+    0% {
+        bottom: 50px;
+    } 
+
+    10% {
+        bottom: 100px;
+    } 
+
+    20% {
+        bottom: 50px;
+    } 
+
+    30% {
+        bottom: 80px;
+    } 
+
+    40% {
+        bottom: 50px;
+    } 
+    50% {
+        bottom: 70px;
+    } 
+    60% {
+        bottom: 50px;
+    } 
+    70% {
+        bottom: 60px;
+    } 
+    80% {
+        bottom: 50px;
+    } 
+    90% {
+        bottom: 70px;
+    } 
+    100% {
+        bottom: 50px;
+    } 
+}
+button {
+    background-color: #8F7854;
+    color: white;
+    border: solid 2px #8F7854;
+    display: inline-block;
+    padding: 18px 30px;
+    margin: 18px 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.btn2{
+    background-color: transparent;
+    color: white;
+    border: solid 2px white;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: solid 2px white;
+
+}
+.logo{
+    width: 100px;
+}
+/* About section */
+.about-icon{
+    width: 35px;
+    height: 35px;
+    border: 1px solid #8F7854;
+    
+    
+}
+.icons-color{
+    color: #8F7854;
+}
+/* Location section */
+.location {
+    background-color: #f8f8f8;
+}
+/* Contact section */
+.contact-color{
+    color: white;
+    
+}
+.contact-icon{
+    background-color: #8F7854;
+    width: 35px;
+    height: 35px;
+}
+.contact{
+    background-color: #f8f8f8;
+}
+.line{
+    width: 70%;
+    height: 1px;
+    background-color: #68686834;
+}
+.aboutUs{
+    background-color: #403D38;
+    color: white;
+}
+.info-content i, p , .line{
+    color: #969696;
+}
+.final{
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center center;
+}
+
+.icons{
+    width: 2rem;
+    height: 2rem;
+    border: solid 3px  #8F7854;
+    background-color: white ;
+}
+.icons:hover{
+    background-color: #8F7854;
+}
+/* footer */
+footer{
+    background-color: #353330;
+}
